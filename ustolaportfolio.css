@@ -1,0 +1,711 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    margin: 0%;
+    font-family: 'Roboto Slab', serif;
+    
+}
+.content{
+    background-image: url("backanime.jpg");
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+.profilecontent img{
+    border-radius: 50%;
+    width: 6%;
+    margin-left: 47%;
+    margin-top: 12%;
+}
+.profilecontent-name{
+    margin-left: 37%;
+    margin-top: 1%;
+}
+.profilecontent-name h3{
+    margin-left: 10%;
+}
+.namecontent{
+    color: aqua;
+}
+ p{
+    width: 80%;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: -19%;
+    color: aliceblue;
+}
+a{
+    color: rgb(12, 248, 177);
+    text-decoration: none;
+    font-size: larger;
+}
+a:hover{
+    text-decoration-line: underline ;
+    color: white;
+    
+}
+.actions{
+    margin-top: 5%;
+    
+    list-style: none;
+}
+.dividerline{
+    width: 100%;
+    height: 5px;
+    background-color: rgb(4, 245, 253);
+    margin-top: .2%;
+    
+}
+h2{
+    margin-top: 2%;
+    margin-left: 5%;
+    color: aqua;
+    font-size: xx-large;
+    text-decoration: underline;
+    
+}
+.Backgroundcontentimage{
+    background-image: url(image2.gif);
+   margin-top: -1.7%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rowfirstcontent{
+    margin-top: 3%;
+    margin-left: 40%;
+}
+.rowfirstcontent img{
+    width: 38%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 25px rgb(0, 132, 255);
+}
+.rowfirstcontent p{
+    color: white;
+    width: 40%;
+    margin-left: -1.5%;
+}
+.rowsecondcontent{
+    margin-top: 5%;
+    margin-left: 3%;
+}
+.rowsecondcontent img{
+    width: 25%;
+    height: 190px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 25px rgb(0, 132, 255);
+}
+.rowsecondcontent p{
+    color: white;
+    width: 25%;
+    margin-top: .8%;
+    margin-left: -1.5%;
+    
+}
+.rowthirdcontent{
+    margin-left: 40%;
+    margin-top: -20%;
+}
+.rowthirdcontent video{
+    width: 41%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 25px rgb(0, 132, 255);
+}
+.rowthirdcontent p{
+    color: white;
+    width: 35%;
+    margin-left: -.1%;
+    padding-top: -2%;
+}
+.rowfourthcontent{
+    margin-top: -20.2%;
+margin-left: 75%;
+}
+.rowfourthcontent img{
+    width: 95%;
+    height: 190px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 25px rgb(0, 132, 255);
+}
+.rowfourthcontent p{
+    color: white;
+    margin-left: -.10%;
+    padding-bottom: 5%;
+}
+h3{
+    color:rgb(2, 158, 158);
+    text-decoration: underline;
+}
+.sidefooter{
+    background-image: url(blurcintent.jfif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 650px;
+    margin-top: .2%;
+}
+.sidefooter .profi{
+    border-radius: 50%;
+    width: 6%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.insidecontent h1{
+    margin-left: 3%;
+    color: aqua;
+}
+.insidecontent p{
+    position: relative;
+    width: 20%;
+    margin-left: 3%;
+    color: white(253, 4, 253, 0.904);
+    font-size: medium;
+    font-family:serif;
+}
+.socoalcontent a{
+    margin: .4%;
+    color: grey;
+}
+.socoalcontent a:hover{
+    color: white;
+    animation-timing-function: ease-in-out;
+}
+.socoalcontent{
+    margin-top: 6%;
+    margin-left:3.6%;
+}
+.socialcontentname{
+    margin-left: -15%;
+}
+.formcontentimage{
+    background-image: url(formimage.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    filter: blur(6px);
+    margin-left: 366.4px;
+    margin-top: -650.1px;
+    
+}
+.getintouch{
+    margin-left: 30%;
+    margin-top: -47%;
+    position: relative;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.getintouch h1{
+    text-decoration: underline;
+    color: aqua;
+    margin-top: 55px;
+}
+.getintouch p{
+    margin-left: -8.5%;
+    margin-top: 5%;
+    font-size: larger;
+}
+.formcontent{
+    margin-left: 30%;
+    margin-top: 5%;
+    position: relative;
+}
+.formcontent #name {
+    width: 23%;
+    height: 38px;
+    border-radius: 5px;
+    outline: none;
+   background-color: rgb(197, 194, 194);
+    text-decoration: none;
+    border-color:white;
+    
+    box-shadow: 0px 0px 20px aqua;
+    font-size: medium;
+}
+.formcontent #email{
+    width: 32%;
+    height: 38px;
+    border-radius: 5px;
+    outline: none;
+   background-color: rgb(197, 194, 194);
+    text-decoration: none;
+    border-color:white;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px aqua;
+    font-size: medium;
+    
+}
+.formcontent .emailbox{
+    margin-top: -4.7%;
+    margin-left: 28%;
+}
+.formcontent textarea{
+    margin-top: 3%;
+    width: 51%;
+    height: 150px;
+    border-radius: 10px;
+    outline: none;
+   background-color: rgb(197, 194, 194);
+    text-decoration: none;
+    border-color:white;
+    overflow: hidden;
+    box-shadow: 0px  0px 20px aqua;
+    font-size: 1rem;
+    background: linear-gradient(3px);
+    
+}
+.formcontent textarea :focus{
+    border: 0px 0px 10px aqua;
+}
+.actions input{
+    width: 15%;
+    height: 50px;
+    margin-top: -5%;
+    background:linear-gradient(2%) grey;
+    font-size: medium;
+    border: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    box-shadow: 0px  0px 20px aqua;
+    
+}
+.actions input:hover{
+    outline: 5%;
+    border-color: aqua;
+    border-style: solid ;
+    transition:150ms ease-in-out;
+}
+.address h3{
+    margin-left: 70%;
+    position: relative;
+    margin-top: -23%;
+}
+.address p{
+    position: absolute;
+    width: 20%;
+    margin-left: 72%;
+    margin-top: -20.5px;
+}
+.address  .subaddresscontentt {
+    position: relative;
+    margin-top: 27%;
+    margin-left: 1%;
+}
+.address .subaddresscontentt p{
+    margin-left: 66%;
+}
+.address .subemailcontain{
+    margin-top: 27%;
+    margin-left: .5%;
+}
+.address .subemailcontain a{
+    margin-left: 72%;
+    margin-top: -1.6%;
+    position:absolute;
+    text-decoration: none;
+    font-size: 1em;
+}
+.address .subemailcontain a :hover{
+    text-decoration: underline;
+    
+}
+.overflowcontentemergency{
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 1024px) {
+    .profilecontent-name h3{
+        margin-left: 35px;
+    }
+    .rowthirdcontent{
+        height: 160px;
+        margin-top: -245px;
+    }
+    .insidecontent .profi{
+        justify-content: center;
+        text-align: center;
+        margin-left: 140px;
+        margin-top: 85px;
+    }
+    .insidecontent h1{
+        font-size: large;
+        margin-left: 65px;
+    }
+    .insidecontent p{
+        margin-left: 69px;
+        
+    }
+    .underline-on-hover{
+        margin-left: -8%;
+    }
+    .getintouch{
+        margin-top: -645px;
+        margin-left: 400px;
+    }
+    .getintouch p{
+        margin-left: 1px;
+        text-align: left;
+    }
+    .formcontent{
+        margin-left: 405px;
+    }
+    .formcontent #name{
+        width: 35%;
+    }
+    .formcontent .emailbox{
+        margin-top: 25px;
+        
+        margin-left: 0px;
+    }
+    .formcontent #email{
+        width: 35%;
+    }
+    .actions .buton{
+        width: 20%;
+    }
+    .address{
+        margin-left: 65px;
+    }
+    ul{
+        list-style: none;
+    }
+    .address .subaddresscontent{
+        margin-left: 15%;
+       display: none;
+    }
+    .address .subaddresscontentt{
+        margin-top: -5%;
+    }
+    .address .subaddresscontentt .infonocontent{
+        margin-left:655px;
+    }
+    .address .subemailcontain .emaill{
+        margin-left:700px;
+        margin-top: -22px;
+    }
+    .socoalcontent{
+        margin-left: 55px;
+    }
+    .socoalcontent .socialcontentname{
+        margin-left: -105px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .profilecontent{
+        margin-left: 15px;
+    }
+    
+    .profilecontent-name h3{
+        margin-left: 1px;
+    }
+    .underline-on-hover{
+        margin-left: -16%;
+    }
+    .about-content{
+        margin-left: -5px;
+    }
+    .rowthirdcontent{
+        margin-top: -205px;
+    }
+    .rowthirdcontent #linescontent{
+        width: 40%;
+    }
+    .rowthirdcontent .about-content{
+        margin-left: -20px;
+    }
+    .rowfourthcontent{
+        margin-top: -243px;
+    }
+    .insidecontent .profi{
+        margin-left: 145px;
+    }
+    .insidecontent p{
+        margin-left: 55px;
+        width: 30%;
+    }
+    .socialcontentname p{
+        margin-left: -105px;
+    }
+    .formcontent #name{
+        width: 65%;
+    }
+    .formcontent #email{
+        width: 65%;
+    }
+    .formcontent #messagebox{
+        width: 65%;
+    }
+    .actions .buton{
+        width: 50%;
+    }
+    .address{
+        display: none;
+    }
+    .subsocial{
+        width: 100%;
+    }
+    .socoalcontent{
+        margin-top: -15px;
+    }
+}
+@media only screen and (max-width:425px) {
+    .content{
+        background-position-x: center;
+    }
+    .profilecontent img{
+        width: 15%;
+        margin-left: 175px;
+    }
+    .profilecontent-name .namecontent{
+        margin-left: -30px;
+    }
+    .profilecontent-name .paraabout{
+        width: 100%;
+        margin-left: -70px;
+    }
+    .profilecontent-name .button-underline{
+        margin-left: -125px;
+    }
+    .rowfirstcontent img{
+        width: 80%;
+        margin-top: 25px;
+        margin-left: -55px;
+    }
+    .rowfirstcontent .about-content{
+        margin-left: 5px;
+    }
+    .rowfirstcontent #linescontent{
+        width: 90%;
+        margin-left: -70px;
+    }
+    .Backgroundcontentimage{
+        background-image: url(responsive.jpg);
+        height: 1200px;
+        background-position-x: center;
+        background-position-y:center;
+    }
+    .rowsecondcontent{
+        margin-left: 115px;
+    }
+    .rowsecondcontent img{
+        width: 65%;
+        height: 130px;
+    }
+    .rowsecondcontent .about-content{
+        margin-left: 2px;
+    }
+    .rowsecondcontent  #linescontent{
+        width: 80%;
+        margin-left: -25px;
+    }
+    .rowthirdcontent{
+        margin-top: 45px;
+        margin-left: 115px;
+    }
+    .rowthirdcontent video{
+        width: 65%;
+    }
+    .rowthirdcontent .about-content{
+        margin-left: -6px;
+    }
+    .rowthirdcontent #linescontent{
+        margin-left: -30px;
+        width: 80%;
+    }
+    .rowfourthcontent{
+        margin-top: 75px;
+        margin-left: 115px;
+    }
+    .rowfourthcontent img{
+        width: 65%;
+        height: 130px;
+    }
+    .rowfourthcontent .about-content{
+        margin-left: 15px;
+    }
+    .rowfourthcontent #linescontent{
+        margin-left: -18px;
+    }
+    .sidefooter{
+        background-size: cover;
+    }
+    .insidecontent .profi{
+        width: 20%;
+        margin-left: 175px;
+    }
+    .insidecontent h1{
+        margin-left: 112px;
+    }
+    .insidecontent p{
+        width: 50%;
+        margin-left: 115px;
+        margin-top: 25px;
+    }
+    .formcontentimage{
+        margin-top: 1px;
+        margin-left: .1px;
+        background-image: url(background_oldschool.png);
+        filter: blur(0px);
+        
+    }
+    .getintouch .topic{
+        margin-left: -385px;
+        margin-top: 15px;
+    }
+    .getintouch #sub-topic{
+        margin-left:-385px;
+       width: 350px;
+    }
+    form{
+        margin-top: 55px;
+    }
+    .namebox #name{
+        margin-left: -290px;
+        width: 180px;
+    }
+    .emailbox #email{
+        margin-left: -290px;
+        width: 180px;
+    }
+    .mssgbox #messagebox{
+        margin-left: -290px;
+        width: 180px;
+        margin-top: 55px;
+    }
+    .actions .buton{
+        margin-left: -289px;
+        width: 180px;
+        margin-top: 25px;
+    }
+    .socoalcontent {
+        margin-top: 25px;
+        position: absolute;
+    }
+    .socoalcontent .subsocial{
+        font-size: 12px;
+        
+        margin-left: 70px;
+    }
+    .socoalcontent .socialcontentname{
+        margin-left: 195px;
+        margin-top: 15px;
+        font-size: 12px;
+        width: 60%;
+    }
+
+}
+@media only screen and (max-width:375px){
+    .content{
+        background-position-x: center;
+        background-size: cover;
+    }
+    .profilecontent img{
+        
+        margin-left: 135px;
+    }
+    .profilecontent{
+        margin-left: 35px;
+    }
+    .profilecontent-name .namecontent{
+        margin-left: -45px;
+    }
+    .profilecontent-name .paraabout{
+        width: 100%;
+        margin-left: -60px;
+    }
+    .profilecontent-name .button-underline{
+        margin-left: -95px;
+        font-size: 15px;
+    }
+    .rowsecondcontent{
+        margin-left: 90px;
+    }
+    .rowfirstcontent .about-content{
+        margin-left: -5px;
+    }
+    .rowsecondcontent .about-content{
+        margin-left: -5px;
+    }
+    .rowthirdcontent{
+        margin-top: 45px;
+        margin-left: 85px;
+    }
+    .rowthirdcontent .about-content{
+        margin-left: -15px;
+    }
+    .rowthirdcontent #linescontent{
+        margin-left: -20px;
+        width: 80%;
+    }
+    .rowfourthcontent{
+        margin-top: 75px;
+        margin-left: 85px;
+    }
+    .rowfourthcontent .about-content{
+        margin-left: 5px;
+    }
+    .rowfourthcontent #linescontent{
+        margin-left: -20px;
+    }
+    .insidecontent .profi{
+        width: 20%;
+        margin-left: 145px;
+    }
+    .insidecontent h1{
+        margin-left: 80px;
+    }
+    .insidecontent p{
+        margin-left: 95px;
+    }
+    .namebox #name{
+        margin-left: -310px;
+        width: 180px;
+    }
+    .emailbox #email{
+        margin-left: -310px;
+        width: 180px;
+    }
+    .mssgbox #messagebox{
+        margin-left: -310px;
+        width: 180px;
+        margin-top: 55px;
+    }
+    .actions .buton{
+        margin-left: -310px;
+        width: 180px;
+        margin-top: 25px;
+    }
+    .socoalcontent .subsocial{
+        font-size: 10px;
+        margin-left: 70px;
+        
+    }
+    .socoalcontent .socialcontentname{
+        margin-left: 165px;
+        margin-top: 15px;
+        font-size: 12px;
+        width: 80%;
+    }
+    .getintouch #sub-topic{
+        margin-left:-385px;
+       width: 310px;
+    }
+    .address .label-icon{
+        display:none;
+    }
+}
+
+
+
+
+
+
+
+
